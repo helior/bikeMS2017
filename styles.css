@@ -2,6 +2,12 @@ body{
     position:relative;
 }
 
+/*Common classes*/
+.center-message {
+    margin:0 auto;
+    text-align:center
+}
+
 /*Logo*/
 #ms-logo {
   margin: 2rem auto;
@@ -18,8 +24,8 @@ body{
 }
 #ms-intro p {
     max-width: 700px;
-    margin: 0 auto;
-    text-align: center;
+/*    margin: 0 auto;*/
+/*    text-align: center;*/
 }
 #ms-intro .btn {
     margin:10px;
