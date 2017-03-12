@@ -1,0 +1,34 @@
+body{
+    position:relative;
+}
+
+/*Logo*/
+#ms-logo {
+  margin: 2rem auto;
+}
+#ms-logo .img {
+  /*width:100%;*/
+  /*max-width:700px;*/
+}
+
+
+/*Intro*/
+#ms-intro {
+    padding: 10px 0;
+}
+#ms-intro p {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+#ms-intro .btn {
+    margin:10px;
+}
+
+
+/*Navigation*/
+#ms-navigation{
+    background-color:#fff;
+}
+
+/*Map*/
