@@ -40,6 +40,9 @@ body>.container-fluid {
 
 
 /*Testimonials*/
+#ms-testimonials blockquote {
+    min-width: 150px;
+}
 #ms-testimonials blockquote p {
     font-size:0.8em;
 }
