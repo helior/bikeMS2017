@@ -7,3 +7,15 @@ $(document).on('click', '[data-toggle="lightbox"]', function (event) {
     event.preventDefault();
     $(this).ekkoLightbox();
 });
+
+
+(function($) {
+    // Track page visit
+    mixpanel.track('page visit');
+    
+    mixpanel.track_links('.donation-button', 'Clicked donation link', function(el) {
+        return {
+            'context': el.rel
+        }
+    });
+})(jQuery);
