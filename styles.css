@@ -2,6 +2,10 @@ body{
     position:relative;
 }
 
+body>.container-fluid {
+    max-width:960px
+}
+
 /*Common classes*/
 .center-message {
     margin:0 auto;
@@ -45,5 +49,5 @@ body{
     background:#fff
 }
 #ms-footer strong {
-    color:orangered
+    color:#ff4500;
 }
