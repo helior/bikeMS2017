@@ -38,3 +38,12 @@ body{
 }
 
 /*Map*/
+
+
+/*Footer*/
+#ms-footer {
+    background:#fff
+}
+#ms-footer strong {
+    color:orangered
+}
