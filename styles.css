@@ -3,24 +3,19 @@ body{
 }
 
 body>.container-fluid {
-    max-width:960px
+    max-width:960px;
 }
 
 /*Common classes*/
 .center-message {
     margin:0 auto;
-    text-align:center
+    text-align:center;
 }
 
 /*Logo*/
 #ms-logo {
   margin: 2rem auto;
 }
-#ms-logo .img {
-  /*width:100%;*/
-  /*max-width:700px;*/
-}
-
 
 /*Intro*/
 #ms-intro {
@@ -54,7 +49,7 @@ body>.container-fluid {
 
 /*Footer*/
 #ms-footer {
-    background:#fff
+    background:#fff;
 }
 #ms-footer strong {
     color:#ff4500;
